@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chatbot", "chatbot", "{912BB239-E9AD-8ED2-44A6-7CE8ADBF6276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatAppAI", "chatbot\ChatAppAI\ChatAppAI.csproj", "{BFB83FF3-D019-990C-1C4B-CDAB2915ACC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFB83FF3-D019-990C-1C4B-CDAB2915ACC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB83FF3-D019-990C-1C4B-CDAB2915ACC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB83FF3-D019-990C-1C4B-CDAB2915ACC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB83FF3-D019-990C-1C4B-CDAB2915ACC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFB83FF3-D019-990C-1C4B-CDAB2915ACC3} = {912BB239-E9AD-8ED2-44A6-7CE8ADBF6276}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1708DAA7-B249-4FFA-BFF4-9BB3B90DE567}
+	EndGlobalSection
+EndGlobal
