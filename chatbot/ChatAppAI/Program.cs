@@ -23,7 +23,7 @@ List<ChatMessage> chatHistory =
 
 while(true)
 {
-    Console.WriteLine(" mensagem:");
+    Console.WriteLine("O que posso ajudar?");
     string userMensagem =  Console.ReadLine();
     chatHistory.Add(new ChatMessage(ChatRole.User, userMensagem));
 
